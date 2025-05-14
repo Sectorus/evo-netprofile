@@ -1,0 +1,9 @@
+[Unit]
+Description=Sets the proxy for evolution depending on location
+
+[Service]
+ExecStart=/usr/local/bin/enp
+
+[Install]
+WantedBy=multi-user.target
+
